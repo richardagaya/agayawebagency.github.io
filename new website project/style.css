@@ -1,0 +1,32 @@
+header nav ul li {
+    float: right;
+    margin: 15px;
+    border: 1px solid black;
+    background-color:red;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-display: auto;
+    color: royalblue;
+ 
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.custom-image {
+  width: 100%; /* adjust the width as per your requirement */
+  height: auto; /* adjust the height as per your requirement */
+  border: none; /* remove the border */
+  box-shadow: royalblue; /* remove the shadow */
+  object-fit: cover; /* Scale the image to cover the whole container */
+}
